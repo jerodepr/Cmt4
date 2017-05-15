@@ -1,17 +1,15 @@
 {
-  "name": "kristofm",
+  "name": "20-heroku-ready",
   "version": "1.0.0",
-  "description": "Personal web page of Kristof Michiels",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Kristof Michiels",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2",
-    "instagram-posts": "^1.0.0",
-    "request-json": "^0.6.2"
+    "express": "^4.15.2"
   }
 }
