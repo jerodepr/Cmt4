@@ -7,7 +7,7 @@ app.set("views", path.resolve(__dirname, "views"));
 app.set("view engine", "ejs");
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static('public'))
-
+/* Ik ben hier geweest*/
 
 app.get('/', function(req, res) {
   instagramPosts('depraeterejeroen').then(afbeeldingen => {
