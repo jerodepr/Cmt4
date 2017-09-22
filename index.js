@@ -9,6 +9,8 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static('public'))
 /* Ik ben hier geweest*/
 
+/* Ik ben hier ook geweest !!!!*/
+
 app.get('/', function(req, res) {
   instagramPosts('depraeterejeroen').then(afbeeldingen => {
       res.render("index", {
